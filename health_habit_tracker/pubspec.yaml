@@ -1,0 +1,39 @@
+name: health_habit_tracker
+description: A new Flutter project for tracking health habits.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Adjusted based on modern Flutter standards
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Add flutter_news_toolkit here once we confirm its exact package name and version
+  # news_ui: # Example, if news_toolkit has a UI package
+  #   git:
+  #     url: https://github.com/flutter/news_toolkit.git
+  #     path: packages/news_ui
+  # news_blocks: # Example
+  #   git:
+  #     url: https://github.com/flutter/news_toolkit.git
+  #     path: packages/news_blocks
+
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.5 # Added for value equality in models
+
+  habits_core:
+    path: packages/habits_core
+
+  habit_discovery:
+    path: packages/habit_discovery
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

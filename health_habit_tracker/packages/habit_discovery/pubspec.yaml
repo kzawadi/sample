@@ -1,0 +1,25 @@
+name: habit_discovery
+description: Feature module for discovering new habits.
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  habits_core: # Dependency on our core models
+    path: ../habits_core # Path relative to this pubspec.yaml
+
+  # We might need a UI package or components from news_toolkit later,
+  # or define our own shared UI components.
+  # For now, just Flutter SDK.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0
+  very_good_analysis: ^5.1.0

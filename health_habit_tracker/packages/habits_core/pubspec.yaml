@@ -1,0 +1,19 @@
+name: habits_core
+description: Core domain logic and models for habits.
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=1.17.0" # Or match the main project's Flutter constraint
+
+dependencies:
+  flutter:
+    sdk: flutter
+  equatable: ^2.0.5 # For value equality
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0 # If we add tests later and need mocking
+  very_good_analysis: ^5.1.0 # Recommended lints
